@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/metier/Configuration.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/theoriegraphes/Information.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/algos/FordFolkersonResiduelle.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/metier/Chemin.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/theoriegraphes/MenuInitial.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/algos/Prim.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/theoriegraphes/MainFrame.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/metier/Arret.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/algos/Kruscal.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/algos/BellmanFord.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/metier/Sommet.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/algos/Algorithme.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/algos/BFS.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/theoriegraphes/MatriceAdj.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/theoriegraphes/ResultatCourtChemin.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/algos/Dijikstra.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/metier/MatriceAdjModel.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/metier/Graphe.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/algos/Wireshall.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/theoriegraphes/Canvas.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/metier/DijikstraModel.java</file>
+            <file>file:/C:/Users/abdel/Documents/NetBeansProjects/TheorieGraphes/src/algos/DFS.java</file>
+        </group>
+    </open-files>
+</project-private>

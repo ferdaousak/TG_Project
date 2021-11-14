@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide d'utilisation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#home"><img src="home.png" alt=""></a>
+        <a href="#first"><img src="introduction.png" alt=""></a>
+        <a href="#second"><img src="interface.png" alt=""></a>
+        <a href="#third"><img src="graphs.png" alt=""></a>
+        <a href="#fourth"><img src="algo.png" alt=""></a>
+    </nav>
+
+    <div class='container'>
+        <div id="bg">
+            <img src="balck.png" alt="">
+        </div>
+    </div>
+    <section id='home'>
+
+        <h2>Guide d'utilisation</h2>
+        <p>
+            Bienvenue sur le guide d'utilisation, la documentation suivante contient tous les
+            informations necessaire pour comprendre comment bien utiliser cette application.
+        </p>
+
+
+    </section>
+    <section id='first'>
+        <h2 style="margin-top: 20px;">Introduction</h2>
+        <p style="font-size: 20px; margin-top: 30px;">
+            Cette application nous permettera de créer des différent types
+            de graphes (sans orientation, orienté et pondéré), modifier son parametre et appliquer les différents
+            types d'algorithmes de façon simple.
+        </p>
+        <img src="application.png" alt="" width="650px" height="500px">
+    </section>
+
+    <section id='second'>
+        <h2 style="margin-top: 20px;">Interface de l'application</h2>
+        <p style="font-size: 20px; margin-top: 30px;">
+            L'interface ce compose en 3 parties : La première est celle des buttons à gauche,
+            il permet de lancer les algorithmes sur le graphe déjà créé avec une possibilité de changer les couleur
+            des sommets, label, etc...
+        </p>
+        <img src="gauche.png" alt="" width="150px" height="500px">
+        <p style="font-size: 20px; margin-top: 30px;">
+            La deuxième ce compose de partie haut qui contient ce guide et des information sure le graphe créé, et
+            au milieu un grand espace pour vous permet de dessiner le graphe et déplacer les
+            noeuds.
+        </p>
+        <img src="milieu.PNG" alt="" width="300px" height="250px">
+        <p style="font-size: 20px; margin-top: 30px;">
+            La dernier partie contient en haut la matrice associer a ce graphe, avec la possibilité d'enregester
+            l'etat de graphe. et en bas la trace dans lequele vous pouvez voir le résultat de
+            l'algorithme que vous choisissez.
+        </p>
+        <img src="droit.PNG" alt="" width="200px" height="650px">
+    </section>
+
+    <section id='third'>
+        <h2 style="margin-top: 20px;">Creation d'un graphe</h2>
+        <p style="font-size: 20px; margin-top: 30px;">
+            Pour la creation de graphe il faut suiver les étapes suivante :
+            <ol>
+                <li>
+                    <p style="font-size: 20px; margin-top: 30px; margin-left:5px;">
+                        cocher le type du graphe : sans orientation (ne choisissez aucune option),
+                        <strong>orienté</strong>,
+                        <strong>pondéré</strong> ou bien les deux pour que le graphe soit orienté et pondéré au meme
+                        temp, puis cliquer sur <strong>Céer</strong> :
+                    </p>
+                    <div style="text-align: center;">
+                        <img src="choix.png" alt="" width="150px" height="150px">
+                    </div>
+
+                </li>
+                <li>
+                    <p style="font-size: 20px; margin-top: 30px; margin-left:5px;">
+                        Cliquer gauche sur l'espace au milieu, une petite fenêtre s'affichera contient un message
+                        qui demande le nom de sommet :
+
+                        <span style="font-size: 20px; margin-top: 30px; margin-left:5px; color:#FF7F50;">après que
+                            vous avez créer le sommet vous pouvez le deplacer seulement en maintenent clique gauche
+                            et faite glisser
+                            la souris</span>
+                    </p>
+                    <div style="text-align: center;">
+                        <img src="label.png" alt="" width="250px" height="100px">
+                        <img src="1.png" alt="" width="100px" height="100px">
+                    </div>
+
+                </li>
+                <li>
+
+                    La liaison de deux sommets faite par cliquer sur un sommet et puis cliquer sur un autres(si
+                    vous voulez le supprimer faite cette operation pour la deuxième fois):
+                    <ul>
+                        <li>
+                            <span style="font-size: 20px; margin-top: 30px; margin-left:5px; color:#FF7F50;">Orienté
+                                : le premier sommet selectionné sera concidéré comme la source
+                                de l'arrête</span>
+                        </li>
+                        <li>
+                            <span style="font-size: 20px; margin-top: 30px; margin-left:5px; color:#FF7F50;">Pondéré
+                                : vous serez demander de saisir le
+                                coût</span>
+                        </li>
+                    </ul>
+                    <div style="text-align: center; margin-top: 20px;">
+                        <img src="oriente.PNG" alt="" width="150px" height="100px">
+                        <img src="pondere.PNG" alt="" width="250px" height="100px">
+                    </div>
+
+
+                </li>
+                <li>
+                    <p style="font-size: 20px; margin-top: 30px; margin-left:5px;">
+                        Cliquer droit sur le sommet que vous voulez supprimer ou afficher ces information :
+                    </p>
+                    <div style="text-align: center;">
+                        <img src="supp.PNG" alt="" width="200px" height="100px">
+                    </div>
+
+                </li>
+            </ol>
+
+        </p>
+
+    </section>
+
+    <section id='fourth'>
+        <h2 style="margin-top: 20px;">Algorithmes</h2>
+        <p style="font-size: 20px; margin-top: 30px;">
+            Cette section est le plus important a comprendre, les algorithmes est comment les utiliser.
+        </p>
+        <div style="text-align: center;">
+            <img src="algorithme.PNG" alt="" width="200px" height="700px">
+        </div>
+        <p style="font-size: 20px; margin-top: 30px;">
+
+            Chaque partie représente un type d'algorithme :
+        </p>
+        <ol>
+            <li>
+                <p style="font-size: 20px; margin-top: 30px; margin-left:5px;">
+                    <strong style="color: #FF7F50;">Algorithme de parcours graphe</strong> :
+                    cette partie contient trois algorithmes : BFS, DFS et Wareshall.
+                    <strong style="color: #FF7F50;">BFS</strong> est un algorithme de parcours en largeur , pour que la
+                    bouton de cette algorithme soit cliquable il faut sélectionner un sommet de départ.
+                    <strong style="color: #FF7F50;">DFS</strong> est un algorithme de parcours en profondeur , pour que
+                    la bouton de cette algorithme soit cliquable il faut sélectionner un sommet de départ.
+                    <strong style="color: #FF7F50;">Wareshall</strong> est un algorithme agissant sur un graphe. Il
+                    permet de construire la fermeture transitive d'un graphe. pour que sa bouton soit cliquable il faut
+                    que le graphe contient au moins un sommet.
+                </p>
+
+            </li>
+            <li>
+                <p style="font-size: 20px; margin-top: 30px; margin-left:5px;">
+                    <strong style="color: #FF7F50;">Algorithme de trouver une arbre couvrant</strong> :
+                    cette partie contient deux algorithmes : Prim et Kruskal.
+                    <strong style="color: #FF7F50;">Prim</strong> est un algorithme glouton qui calcule un arbre
+                    couvrant minimal, pour que la bouton de cette algorithme soit cliquable il faut qu'il existe un
+                    graphe non orienté et pondéré.
+                    <strong style="color: #FF7F50;">Kruskal</strong> est un algorithme de recherche d'arbre recouvrant
+                    de poids minimum (ARPM) ou arbre couvrant minimum (ACM) , pour que la bouton de cette algorithme
+                    soit cliquable il faut qu'il existe un graphe non orienté et pondéré.
+                </p>
+
+            </li>
+            <li>
+                <p style="font-size: 20px; margin-top: 30px; margin-left:5px;">
+                    <strong style="color: #FF7F50;">Algorithme de trouver un court chemin</strong> :
+                    cette partie contient deux algorithmes : Dijkstra et Bellman-Ford.
+                    <strong style="color: #FF7F50;">Dijkstra</strong> est un algorithme qui calcule des plus courts
+                    chemins à partir d'une source vers tous les autres sommets dans un graphe, pour que la bouton de
+                    cette algorithme soit cliquable il faut qu'il existe un graphe pondéré par des réels positif.
+                    <strong style="color: #FF7F50;">Bellman-Ford</strong>est un algorithme qui calcule des plus courts
+                    chemins à partir d'une source, pour que la bouton de cette algorithme soit cliquable il faut qu'il
+                    existe un graphe pondéré.
+                </p>
+
+            </li>
+            <li>
+                <p style="font-size: 20px; margin-top: 30px; margin-left:5px;">
+                    <strong style="color: #FF7F50;">Réseau de transport</strong> :
+                    cette partie contient deux algorithmes : Ford Fullkirson methode de marquage et Ford Fullkirson
+                    methode residuel.
+                    <strong style="color: #FF7F50;">Ford Fullkirson methode de marquage</strong> est un algorithme pour
+                    le problème du flot maximum en marquant les sommet par +/-, pour que la bouton de cette algorithme
+                    soit cliquable il faut qu'il existe un graphe orienté et pondéré.
+                    <strong style="color: #FF7F50;">Ford Fullkirson methode residuel</strong>est un algorithme pour le
+                    problème du flot maximum, pour que la bouton de cette algorithme soit cliquable il faut qu'il existe
+                    un graphe orienté et pondéré.
+                </p>
+            </li>
+            <li>
+                <p style="font-size: 20px; margin-top: 30px; margin-left:5px;">
+                    <strong style="color: #FF7F50;">Algorithme de coloriage</strong> :
+                    cette partie contient l'algorithme de Welch et Powell.
+                    <strong style="color: #FF7F50;">WelchPowell</strong> est un algorithme consiste à attribuer une
+                    couleur à chacun de ses sommets de manière que deux sommets reliés par une arête soient de couleur
+                    différente. Pour que la bouton de cette algorithme soit cliquable il faut qu'il existe un graphe non
+                    orienté.
+
+                </p>
+            </li>
+            <p style="font-size: 20px; margin-top: 30px; margin-left:5px;">
+                <strong style="color: #FF7F50;">La bouton Recommencer vous permet de créer un nouveau graphe</strong>
+            </p>
+
+        </ol>
+
+    </section>
+    </div>
+</body>
+
+</html>
